@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title color="light" id="title" class="ion-text-center">Perfil</ion-title>
+
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="" color="light"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img id="img" src="assets\icon\maior.png" alt="">
+  
+  <div id="edit_perfil">
+    <ion-text color="primary" >Editar foto</ion-text>
+  </div>
+
+  <ion-item>
+    <ion-input type="email" placeholder="Nome"></ion-input>
+  </ion-item>
+    
+  <ion-item>
+    <ion-input type="password" placeholder="Telefone"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="password" placeholder="E-mail"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="password" placeholder="Senha"></ion-input>
+  </ion-item>
+    
+  <ion-button (click)="btncon()" expand="block" color="">concluir</ion-button>
+ 
+</ion-content>

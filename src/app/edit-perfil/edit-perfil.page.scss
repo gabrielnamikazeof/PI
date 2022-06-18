@@ -1,0 +1,48 @@
+
+ion-content{
+    --background:#003C70
+  }
+
+  #title{
+    position: absolute;
+    top: 15px;
+    padding-left: 55px;
+  }
+
+  #img{
+    margin-top:20px ;
+    width: 50%;
+    
+    margin-left: 65px;
+    margin-right: 65px;
+  }
+
+  #edit_perfil{
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 15px;
+  }
+
+
+  ion-item{
+    border-radius:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  
+  
+  }
+   ion-button{
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 16px;
+    --border-radius: 10px;
+  }
+  
+  ion-toolbar{
+    --background:#054C82
+  
+  }

@@ -1,0 +1,20 @@
+<ion-content>
+  <img src="assets\icon\POSSO__2_-removebg-preview (1).png" alt="" id="img">
+
+  <ion-title id="page">Login</ion-title>
+
+  <ion-item>
+    <ion-input type="email" placeholder="E-mail"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="password" placeholder="Senha"></ion-input>
+  </ion-item>
+
+  <ion-button (click)="btncon()" expand="block">Entrar</ion-button>
+
+  <div id="semconta">
+    <ion-text>Não tem conta?</ion-text>
+    <ion-text [routerLink]="['/cadastro']" routerLinkActive="router-link-active" color="primary" >Cadastre-se</ion-text>
+  </div>
+</ion-content>

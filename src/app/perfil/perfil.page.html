@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title color="light" id="mecanico" class="ion-text-center">Perfil</ion-title>
+
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="" color="light"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img id="img" src="assets\icon\maior.png" alt="">
+  
+  <div id="edit_perfil">
+    <ion-text [routerLink]="['/edit-perfil']" routerLinkActive="router-link-active" color="primary" >Editar perfil</ion-text>
+  </div>
+
+  <div id="info">
+    <ion-text color="light">Nome:</ion-text><br>
+  </div>
+  <div id="info">
+    <ion-text color="light">Telefone:</ion-text><br>
+  </div>
+  <div id="info">
+    <ion-text color="light">E-mail:</ion-text><br>
+  </div>
+  
+</ion-content>
